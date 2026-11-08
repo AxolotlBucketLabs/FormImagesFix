@@ -1,0 +1,16 @@
+name: Publish FormImagesFix release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  release:
+    uses: AxolotlBucketLabs/DevTools/.github/workflows/release-plugin.yml@0fd73cc2c82d03d0d47f6c7ce119859deda042e3 # v3.3.0
+    with:
+      mode: tag
+      php-version: '8.4'

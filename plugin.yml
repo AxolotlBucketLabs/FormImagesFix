@@ -1,4 +1,7 @@
 name: FormImagesFix
 main: muqsit\formimagesfix\Main
 api: 5.0.0
-version: 0.0.3
+version: 0.0.4
+author: Muqsit
+authors: [AxolotlBucketLabs]
+description: Refreshes form image loading on Axolotl-PM
