@@ -37,9 +37,9 @@ final class Main extends PluginBase implements Listener{
 					$this->getScheduler()->scheduleRepeatingTask(new ClosureTask(static function() use($player, $target, &$times) : void{
 						--$times >= 0 || throw new CancelTaskException("Maximum retries exceeded");
 						$target->isConnected() || throw new CancelTaskException("Maximum retries exceeded");
-						$target->getEntityEventBroadcaster()->syncAttributes([$target], $player, [
-							$player->getAttributeMap()->get(Attribute::EXPERIENCE_LEVEL)
-						]);
+						$attribute = $player->getAttributeMap()->get(Attribute::EXPERIENCE_LEVEL);
+						$attribute !== null || throw new CancelTaskException("Experience attribute is unavailable");
+						$target->getEntityEventBroadcaster()->syncAttributes([$target], $player, [$attribute]);
 					}), 10);
 				}), 1);
 			}
