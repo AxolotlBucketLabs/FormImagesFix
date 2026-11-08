@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5] - 2026-11-09
+
+### Changed
+
+- License the maintained source under MIT while retaining Muqsit's original author attribution.
+- Use the canonical AxolotlBucketLabs Discord badge.
+
 ## [0.0.4] - 2026-11-09
 
 ### Changed

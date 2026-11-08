@@ -2,7 +2,7 @@
 
 FormImagesFix helps form button images finish loading instead of staying in the loading state for too long.
 
-[![CI](https://github.com/AxolotlBucketLabs/FormImagesFix/actions/workflows/build.yml/badge.svg)](https://github.com/AxolotlBucketLabs/FormImagesFix/actions/workflows/build.yml) [![Release](https://img.shields.io/github/v/release/AxolotlBucketLabs/FormImagesFix)](https://github.com/AxolotlBucketLabs/FormImagesFix/releases/latest) [![License](https://img.shields.io/github/license/AxolotlBucketLabs/FormImagesFix)](https://github.com/AxolotlBucketLabs/FormImagesFix/blob/main/LICENSE) [![Discord](https://img.shields.io/discord/1568295845374206052?label=Discord)](https://discord.gg/Pk4FrNvHnM)
+[![CI](https://github.com/AxolotlBucketLabs/FormImagesFix/actions/workflows/build.yml/badge.svg)](https://github.com/AxolotlBucketLabs/FormImagesFix/actions/workflows/build.yml) [![Release](https://img.shields.io/github/v/release/AxolotlBucketLabs/FormImagesFix)](https://github.com/AxolotlBucketLabs/FormImagesFix/releases/latest) [![License](https://img.shields.io/github/license/AxolotlBucketLabs/FormImagesFix)](https://github.com/AxolotlBucketLabs/FormImagesFix/blob/main/LICENSE) [![Discord](https://img.shields.io/discord/1568295845374206052?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/Pk4FrNvHnM)
 
 ## Requirements
 
@@ -23,4 +23,4 @@ Muqsit is the original author. AxolotlBucketLabs maintains this fork for the Axo
 
 ## License
 
-The repository keeps the license supplied with the original project. See [LICENSE](LICENSE).
+The source is available under the MIT License. See [LICENSE](LICENSE).
