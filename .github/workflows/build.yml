@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    uses: AxolotlBucketLabs/DevTools/.github/workflows/build-plugin.yml@0fd73cc2c82d03d0d47f6c7ce119859deda042e3 # v3.3.0
+    uses: AxolotlBucketLabs/DevTools/.github/workflows/build-plugin.yml@v4.0.0 # v4.0.0
     with:
       axolotl-ref: 5.51.1
       php-version: '8.4'
